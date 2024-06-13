@@ -77,11 +77,14 @@ nav{
         }
     }
     .offcanvas.offcanvas-start-lg{
-        background: $second-color;
+        background: $primary-color;
         height: 100%;
         width: 250px;
         right: 0;
         @media(max-width: 991px){
+            a{
+                color: #fff !important;
+            }
             .offcanvas-body , .navbar__links{
                 justify-content: flex-start !important;
                 flex-direction: column !important;
