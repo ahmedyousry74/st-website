@@ -322,3 +322,12 @@ section{
 .owl-nav{
     display: none;
 }
+section{
+    &.popular_books{
+        background-color: #fff !important;
+        background-image: none !important;
+        svg{
+            width: 80px;
+        }
+    }
+}
