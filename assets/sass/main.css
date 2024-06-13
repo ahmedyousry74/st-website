@@ -336,6 +336,21 @@ section.popular_books svg {
   }
 }
 
+@media (max-width: 580px) {
+  .row-books {
+    display: none !important;
+  }
+}
+
+.carousal_books {
+  display: none !important;
+}
+@media (max-width: 580px) {
+  .carousal_books {
+    display: block !important;
+  }
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
