@@ -319,6 +319,10 @@ section {
     border-width: 1px;
   }
 }
+.owl-nav {
+  display: none;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
