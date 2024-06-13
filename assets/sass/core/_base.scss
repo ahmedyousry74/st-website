@@ -275,3 +275,47 @@ section{
         color: $primary-color !important;
     }
 }
+.img-2{
+    left: 240px;
+    bottom: 0;
+    z-index: 3;
+    position: absolute;
+}
+.reader_ai_item{
+    transition: 0.5s ease-in-out all;
+    &:hover{
+        background-color: $primary-color;
+        span,p{
+            color: #fff !important;
+        }
+        path,svg{
+            fill: #fff;
+            color: #fff;
+        }
+    }
+}
+.animate-buble2 {
+    animation: buble 3.25s linear .75s infinite;
+}
+@keyframes buble
+{
+    0% {
+        -webkit-transform: translate(-50%, -50%) scale(0.5);
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 1;
+        border-width: 3px;
+    }
+    
+    40% {
+        opacity: 0.5;
+        border-width: 2px;
+    }
+    65% {
+        border-width: 1px;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+        border-width: 1px;
+    }
+}

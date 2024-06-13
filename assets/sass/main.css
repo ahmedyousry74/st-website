@@ -275,6 +275,50 @@ section {
   color: #5751E1 !important;
 }
 
+.img-2 {
+  left: 240px;
+  bottom: 0;
+  z-index: 3;
+  position: absolute;
+}
+
+.reader_ai_item {
+  transition: 0.5s ease-in-out all;
+}
+.reader_ai_item:hover {
+  background-color: #5751E1;
+}
+.reader_ai_item:hover span, .reader_ai_item:hover p {
+  color: #fff !important;
+}
+.reader_ai_item:hover path, .reader_ai_item:hover svg {
+  fill: #fff;
+  color: #fff;
+}
+
+.animate-buble2 {
+  animation: buble 3.25s linear 0.75s infinite;
+}
+
+@keyframes buble {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+    border-width: 3px;
+  }
+  40% {
+    opacity: 0.5;
+    border-width: 2px;
+  }
+  65% {
+    border-width: 1px;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+    border-width: 1px;
+  }
+}
 footer .footer_links h2:after {
   position: absolute;
   content: "";
