@@ -1,0 +1,38 @@
+header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    @media(max-width: 1024px){
+        height: 100%;
+    .header_info{
+        margin-bottom: 35px;
+    }
+    }
+}
+.animate-move-hor {
+    animation: move-hor 3s linear 0s infinite alternate;
+}
+.animate-spin-slow {
+    animation: spin-slow 6s linear 0s infinite alternate;
+}
+@keyframes move-hor {
+
+    0% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes spin-slow {
+
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
