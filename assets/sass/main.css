@@ -330,6 +330,11 @@ section.popular_books {
 section.popular_books svg {
   width: 80px;
 }
+@media (max-width: 580px) {
+  section.popular_books svg {
+    width: 40px;
+  }
+}
 
 footer .footer_links h2:after {
   position: absolute;

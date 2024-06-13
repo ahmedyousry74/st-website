@@ -328,6 +328,9 @@ section{
         background-image: none !important;
         svg{
             width: 80px;
+            @media(max-width: 580px){
+                width: 40px;
+            }
         }
     }
 }
