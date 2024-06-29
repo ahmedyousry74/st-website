@@ -391,6 +391,24 @@ section.popular_books svg {
   visibility: visible !important;
 }
 
+.form__search input {
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  height: 45px;
+  width: 350px;
+  padding: 8px 16px;
+  background-color: #fff;
+}
+.form__search select {
+  border: 1px solid #ccc;
+  border-radius: 0 8px 8px 0;
+  height: 45px;
+  width: 150px;
+  padding: 8px 16px;
+  background-color: #fff;
+  box-shadow: none !important;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
