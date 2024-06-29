@@ -355,6 +355,42 @@ section.popular_books svg {
   width: unset !important;
 }
 
+.faqs__ .faq__items .accordion-item {
+  width: 100%;
+  border: 0;
+}
+.faqs__ .faq__items .accordion-header {
+  border: 0;
+  border-bottom: 0;
+}
+.faqs__ .faq__items .accordion-button {
+  background: #fff;
+  border-bottom: 0;
+  border: 0;
+  border-radius: 6px 6px 0 0;
+}
+.faqs__ .faq__items .accordion-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.faqs__ .faq__items .accordion-button::after {
+  position: absolute;
+  left: 20px;
+}
+.faqs__ .faq__items .accordion-collapse {
+  border: 0px;
+  padding: 0;
+  background: rgb(245, 245, 245);
+}
+.faqs__ .faq__items .accordion-body {
+  border-top: 0;
+  border: 0;
+  background-color: #fff;
+}
+.faqs__ .collapse {
+  visibility: visible !important;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";

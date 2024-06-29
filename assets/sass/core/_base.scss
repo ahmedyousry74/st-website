@@ -350,3 +350,49 @@ section{
         width: unset !important;
     }
 }
+.faqs__ {
+    .faq__items {
+        .accordion-item {
+            width: 100%;
+            border: 0;
+        }
+
+        .accordion-header {
+            border: 0;
+            border-bottom: 0;
+        }
+
+        .accordion-button {
+            background: #fff;
+            border-bottom: 0;
+            border: 0;
+            border-radius: 6px 6px 0 0;
+
+            &:focus {
+                outline: 0;
+                box-shadow: none;
+            }
+        }
+
+        .accordion-button::after {
+            position: absolute;
+            left: 20px;
+        }
+
+        .accordion-collapse {
+            border: 0px;
+            padding: 0;
+            background: rgb(245, 245, 245);
+        }
+
+        .accordion-body {
+            border-top: 0;
+            border: 0;
+            background-color: #fff;
+        }
+    }
+
+    .collapse {
+        visibility: visible !important;
+    }
+}
