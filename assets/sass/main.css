@@ -351,7 +351,7 @@ section.popular_books svg {
   }
 }
 
-.parteners_carousal img {
+.parteners_carousal img, .testimonilas_carousal img {
   width: unset !important;
 }
 
