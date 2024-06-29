@@ -351,6 +351,10 @@ section.popular_books svg {
   }
 }
 
+.parteners_carousal img {
+  width: unset !important;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";

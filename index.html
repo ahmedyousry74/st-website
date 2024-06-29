@@ -266,7 +266,7 @@
       </div>
     </section>
   
-    <section class="best_books py-[50px] lg:px-[100px] px-[20px]">
+    <section class="best_books py-[50px] lg:px-[100px] px-[20px] hidden">
       <div class="flex justify-center items-center flex-row">
         <span class="bg-second-color text-primary-color font-bold text-[17px] rounded-full py-[5px] px-[15px] mb-[15px]" > الكتب التفاعلية </span>
       </div>
@@ -1052,6 +1052,29 @@
       </div>
     </section>
 
+    <section class="parteners__  py-[50px] sm:py-[100px] lg:px-[100px] px-[20px]">
+      <div class="flex justify-center items-center flex-col gap-3">
+        <span class="bg-second-color text-primary-color font-bold text-[17px] rounded-full py-[5px] px-[15px] mb-[15px]" >  شركائنا </span>
+      </div>
+      <div class="owl-carousel parteners_carousal owl-theme mt-[35px]">
+        <div class="item_partener">
+          <img src="./assets/images/xc-logo-5.png.pagespeed.ic.-Y5kLux1yA.webp" alt="partener" width="80"  height="80" class="object-contain !w-[50px] !h-[50px]" >
+        </div>
+        <div class="item_partener">
+          <img src="./assets/images/xc-logo-4.png.pagespeed.ic.S5vWVkWjmD.webp" alt="partener" width="80"  height="80" >
+        </div>
+        <div class="item_partener">
+          <img src="./assets/images/xc-logo-3.png.pagespeed.ic.NQcNeNZ4a_.webp" alt="partener" width="80"  height="80" >
+        </div>
+        <div class="item_partener">
+          <img src="./assets/images/xc-logo-2.png.pagespeed.ic.OMrLcfI1Hy.webp" alt="partener" width="80"  height="80" >
+        </div>
+        <div class="item_partener">
+          <img src="./assets/images/xc-logo-1.png.pagespeed.ic.xGdGUEH-1m.webp" alt="partener" width="80"  height="80" >
+        </div>
+      </div>
+    </section>
+
     <!-- start footer -->
      <footer class="bg-[#06042E] lg:px-[100px] px-[40px] lg:py-[60px] py-[30px]">
       <div class="row">
@@ -1254,6 +1277,38 @@
           },
           1000: {
               items: 4,
+              nav: true,
+              loop: true
+          }
+      }
+    })
+    </script>
+    <script>
+      $('.owl-carousel.parteners_carousal').owlCarousel({
+      loop: true,
+      autoplay: true,
+      nav: false,
+      dots: false,
+      autoplayTimeout: 2000,
+      margin: 20,
+      responsiveClass: true,
+      ltr: true,
+      rtl: true,
+      responsive: {
+          0: {
+              items: 2,
+              nav: true
+          },
+          350: {
+              items: 2,
+              nav: true
+          },
+          600: {
+              items: 3,
+              nav: false
+          },
+          1000: {
+              items: 6,
               nav: true,
               loop: true
           }
