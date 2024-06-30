@@ -840,6 +840,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1088,6 +1093,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.\!w-full {
+  width: 100% !important;
 }
 
 .max-w-2xl {
