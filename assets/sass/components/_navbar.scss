@@ -18,6 +18,9 @@ nav{
         .nav-link{
             color: #fff !important;
         }
+        @media(max-width: 991px){
+            background-color: #fff;
+        }
     }
     .colse_{
         filter: invert(1);

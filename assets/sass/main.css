@@ -399,6 +399,11 @@ section.popular_books svg {
   padding: 8px 16px;
   background-color: #fff;
 }
+@media (max-width: 767px) {
+  .form__search input {
+    width: 200px;
+  }
+}
 .form__search select {
   border: 1px solid #ccc;
   border-radius: 0 8px 8px 0;
@@ -407,6 +412,21 @@ section.popular_books svg {
   padding: 8px 16px;
   background-color: #fff;
   box-shadow: none !important;
+  direction: ltr;
+}
+@media (max-width: 767px) {
+  .form__search select {
+    width: 90px;
+  }
+}
+
+.cart_lang_div {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .cart_lang_div {
+    display: none;
+  }
 }
 
 footer .footer_links h2:after {
@@ -441,6 +461,11 @@ nav.show {
 }
 nav.show .nav-link {
   color: #fff !important;
+}
+@media (max-width: 991px) {
+  nav.show {
+    background-color: #fff;
+  }
 }
 nav .colse_ {
   filter: invert(1);
