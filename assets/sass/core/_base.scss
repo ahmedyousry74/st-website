@@ -433,3 +433,15 @@ section{
         display: none;
     }
 }
+.auth__layout{
+    input{
+        color: $third-color;
+        font-size: 16px;
+        font-weight: medium;
+        &::placeholder{
+            color: $third-color;
+            font-size: 16px;
+            font-weight: medium;
+        }
+    }
+}

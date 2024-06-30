@@ -434,6 +434,22 @@ section.popular_books svg {
   }
 }
 
+.auth__layout input {
+  color: #161439;
+  font-size: 16px;
+  font-weight: medium;
+}
+.auth__layout input::-moz-placeholder {
+  color: #161439;
+  font-size: 16px;
+  font-weight: medium;
+}
+.auth__layout input::placeholder {
+  color: #161439;
+  font-size: 16px;
+  font-weight: medium;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
