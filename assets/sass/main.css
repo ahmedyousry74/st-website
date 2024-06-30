@@ -354,6 +354,11 @@ section.popular_books svg {
 .parteners_carousal img, .testimonilas_carousal img {
   width: unset !important;
 }
+.parteners_carousal .owl-stage, .testimonilas_carousal .owl-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .faqs__ .faq__items .accordion-item {
   width: 100%;

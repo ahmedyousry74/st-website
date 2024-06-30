@@ -349,6 +349,11 @@ section{
     img{
         width: unset !important;
     }
+    .owl-stage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .faqs__ {
     .faq__items {
