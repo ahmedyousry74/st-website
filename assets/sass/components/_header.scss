@@ -1,13 +1,28 @@
 header {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
     @media(max-width: 1024px){
         height: 100%;
-    .header_info{
-        margin-bottom: 35px;
+        .header_info{
+            margin-bottom: 35px;
+        }
     }
+    .carousel-item{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            // background-color: rgba(0, 0, 0, 0.0);
+            height: 100%;
+            width: 100%;
+            top: 0;
+            right: 0;
+        }
+    }
+    .header_img,.header_info{
+        position: relative;
+        z-index: 99;
     }
 }
 .animate-move-hor {

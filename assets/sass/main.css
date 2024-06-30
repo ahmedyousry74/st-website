@@ -589,12 +589,6 @@ nav.show #loginType {
   }
 }
 
-header {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
 @media (max-width: 1024px) {
   header {
     height: 100%;
@@ -602,6 +596,24 @@ header {
   header .header_info {
     margin-bottom: 35px;
   }
+}
+header .carousel-item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+header .carousel-item::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+header .header_img, header .header_info {
+  position: relative;
+  z-index: 99;
 }
 
 .animate-move-hor {
