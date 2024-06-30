@@ -288,10 +288,12 @@ section {
 .reader_ai_item:hover {
   background-color: #5751E1;
 }
-.reader_ai_item:hover span, .reader_ai_item:hover p {
+.reader_ai_item:hover span,
+.reader_ai_item:hover p {
   color: #fff !important;
 }
-.reader_ai_item:hover path, .reader_ai_item:hover svg {
+.reader_ai_item:hover path,
+.reader_ai_item:hover svg {
   fill: #fff;
   color: #fff;
 }
@@ -351,10 +353,12 @@ section.popular_books svg {
   }
 }
 
-.parteners_carousal img, .testimonilas_carousal img {
+.parteners_carousal img,
+.testimonilas_carousal img {
   width: unset !important;
 }
-.parteners_carousal .owl-stage, .testimonilas_carousal .owl-stage {
+.parteners_carousal .owl-stage,
+.testimonilas_carousal .owl-stage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -448,6 +452,70 @@ section.popular_books svg {
   color: #161439;
   font-size: 16px;
   font-weight: medium;
+}
+
+form.inc_dec {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form.inc_dec .value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+form.inc_dec .value-button:hover {
+  cursor: pointer;
+}
+form.inc_dec form #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+form.inc_dec form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+form.inc_dec form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+form.inc_dec input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+form.inc_dec input[type=number]::-webkit-inner-spin-button,
+form.inc_dec input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cart_page table td,
+.cart_page table tr,
+.cart_page table th {
+  text-align: center;
+}
+.cart_page table td span {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .footer_links h2:after {
