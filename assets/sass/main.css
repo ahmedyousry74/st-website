@@ -527,14 +527,14 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 }
 .book-details form.inc_dec .value-button {
   display: inline-block;
-  border: 1px solid #cbcbcb;
+  border: 1px solid #f4e6e5;
   margin: 0px;
   width: 40px;
   height: 40px;
   text-align: center;
   vertical-align: middle;
   padding: 7px 0;
-  background: #cbcbcb;
+  background: #f4e6e5;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
