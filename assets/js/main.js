@@ -31,3 +31,14 @@ function decreaseValue() {
     value--;
     document.getElementById('number').value = value;
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const largeImage = document.querySelector('.large_image');
+    const smallImages = document.querySelectorAll('.small_image');
+    smallImages.forEach(smallImage => {
+        smallImage.addEventListener('click', function() {
+            largeImage.src = smallImage.src;
+        });
+    });
+});

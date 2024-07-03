@@ -174,25 +174,25 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="book__images">
-                    <div class="image">
-                        <img src="" alt="">
+                <div class="book__images flex justify-start items-start flex-col gap-2 w-full">
+                    <div class="image h-[350px] w-full border border-solid border-[#ccc] rounded-lg">
+                        <img src="./assets/images/book-1.jpeg" alt="book" loading="lazy" class="large_image w-full h-full rounded-lg object-cover">
                     </div>
-                    <div class="images-scroll">
-                        <div class="img_item">
-                            <img src="" alt="">
+                    <div class="owl-carousel book_carousal owl-theme">
+                        <div class="img_item h-[150px] border border-solid border-[#ccc] rounded-lg" >
+                            <img src="./assets/images/book-4.jpeg" alt="book" loading="lazy" class="small_image w-full h-full rounded-lg object-cover">
                         </div>
-                        <div class="img_item">
-                            <img src="" alt="">
+                        <div class="img_item h-[150px] border border-solid border-[#ccc] rounded-lg">
+                            <img src="./assets/images/book-2.jpeg" alt="book" loading="lazy" class="small_image w-full h-full rounded-lg object-cover">
                         </div>
-                        <div class="img_item">
-                            <img src="" alt="">
+                        <div class="img_item h-[150px] border border-solid border-[#ccc] rounded-lg">
+                            <img src="./assets/images/book-3.jpeg" alt="book" loading="lazy" class="small_image w-full h-full rounded-lg object-cover">
                         </div>
-                        <div class="img_item">
-                            <img src="" alt="">
+                        <div class="img_item h-[150px] border border-solid border-[#ccc] rounded-lg">
+                            <img src="./assets/images/book-4.jpeg" alt="book" loading="lazy" class="small_image w-full h-full rounded-lg object-cover">
                         </div>
-                        <div class="img_item">
-                            <img src="" alt="">
+                        <div class="img_item h-[150px] border border-solid border-[#ccc] rounded-lg">
+                            <img src="./assets/images/book-5.jpeg" alt="book" loading="lazy" class="small_image w-full h-full rounded-lg object-cover">
                         </div>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
 
                     </div>
                     <div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -354,6 +354,39 @@
         referrerpolicy="no-referrer"
       ></script>
       <script src="./assets/js/main.js"></script>
+
+      <script>
+        $('.owl-carousel.book_carousal').owlCarousel({
+        loop: true,
+        autoplay: true,
+        nav: false,
+        dots: false,
+        autoplayTimeout: 2000,
+        margin: 15,
+        responsiveClass: true,
+        ltr: true,
+        rtl: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            350: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            1000: {
+                items: 4,
+                nav: true,
+                loop: true
+            }
+        }
+      })
+      </script>
 
     </body>
     </html>
