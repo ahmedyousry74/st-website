@@ -662,3 +662,26 @@ form.inc_dec {
         }
     }
 }
+
+@media(max-width: 580px){
+    .book_catg {
+        top: 3px !important;
+        span{
+            padding-top: 3px !important;
+            padding-bottom: 3px !important;
+            font-size: 12px !important;
+        }
+    }
+    .book_catg {
+        top: 3px !important;
+        span{
+            padding-top: 3px !important;
+            padding-bottom: 3px !important;
+            font-size: 12px !important;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
