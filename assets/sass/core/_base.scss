@@ -685,3 +685,58 @@ form.inc_dec {
         }
     }
 }
+
+.profile-dropdown .profile-toggle{
+    background:transparent !important;
+    position: relative;
+    top: -9px;
+}
+.profile-dropdown  .profile-toggle .avatar{
+    width: 40px;
+    height:40px;
+    border-radius:50%;
+}
+.profile-dropdown  .dropdown-menu{
+    position: absolute;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-color: transparent;
+    padding:10px 5px;
+    left: 0 !important;
+    right: auto !important;
+}
+.profile-dropdown .dropdown-menu:after,  .dropdown-menu:before {
+    content: ' ';
+    display: block;
+    border-style: solid;
+    border-width: 0 0.7em 0.8em 0.7em;
+    border-color: transparent;
+    position: absolute;
+    left: 22%;
+    margin-left: -0.7em;
+    z-index: -1;
+}
+.profile-dropdown .dropdown-menu:after {
+    top: -0.7em;
+    border-bottom-color: #fff;
+}
+.profile-dropdown .dropdown-item{
+    color: #999;
+    transition: 0.5s all ease-in-out;
+}
+.profile-dropdown  button.dropdown-item {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    color: #999;
+}
+.profile-dropdown .dropdown-item:hover{
+    background: transparent;
+    color: #444;
+    margin-inline-start: 10px;
+}
+.profile-dropdown .profile-toggle.dropdown-toggle:hover .dropdown-menu {
+    display: block;
+}
+
+.profile-dropdown .dropdown-toggle::after{
+    display: none;
+}
