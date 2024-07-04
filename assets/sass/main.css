@@ -612,8 +612,8 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
     top: 3px !important;
   }
   .book_catg span {
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
     font-size: 12px !important;
   }
   .book_catg img {
