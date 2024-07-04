@@ -931,14 +931,6 @@ video {
   margin-top: 50px;
 }
 
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mb-\[45px\] {
-  margin-bottom: 45px;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1065,12 +1057,12 @@ video {
   height: 100%;
 }
 
-.h-\[100px\] {
-  height: 100px;
-}
-
 .h-\[100vh\] {
   height: 100vh;
+}
+
+.h-\[150px\] {
+  height: 150px;
 }
 
 .h-\[250px\] {
@@ -1095,14 +1087,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[150\] {
-  height: 150;
-}
-
-.h-\[150px\] {
-  height: 150px;
 }
 
 .\!w-\[50px\] {
@@ -2104,10 +2088,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-\[8\] {
-  border-radius: 8;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2255,10 +2235,6 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(230 234 239 / var(--tw-border-opacity));
-}
-
-.border-\[\#cc\] {
-  border-color: #cc;
 }
 
 .border-b-primary-color {
@@ -2576,6 +2552,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .py-\[12px\] {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -2589,6 +2570,11 @@ video {
 .py-\[20px\] {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.py-\[25px\] {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .py-\[30px\] {
@@ -2609,21 +2595,6 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[4px\] {
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-.py-\[10px\] {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .pb-\[25px\] {
@@ -2849,16 +2820,12 @@ video {
   line-height: 2rem;
 }
 
-.leading-\[1\.8\] {
-  line-height: 1.8;
-}
-
-.leading-\[1\.9\] {
-  line-height: 1.9;
-}
-
 .leading-\[1\.7\] {
   line-height: 1.7;
+}
+
+.leading-\[1\.8\] {
+  line-height: 1.8;
 }
 
 .\!text-\[\#ccc\] {
@@ -3513,12 +3480,12 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mt-\[65px\] {
-    margin-top: 65px;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-\[65px\] {
+    margin-top: 65px;
   }
 
   .md\:hidden {

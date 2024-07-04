@@ -572,6 +572,33 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+.book_details_tabs .nav.nav-pills {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.book_details_tabs .nav.nav-pills li button {
+  color: #161439;
+}
+.book_details_tabs .nav.nav-pills li button.active {
+  position: relative;
+  background-color: transparent;
+  color: #5751E1;
+  border: 0;
+  font-weight: bold;
+}
+.book_details_tabs .nav.nav-pills li button.active::after {
+  content: "";
+  position: absolute;
+  top: 49px;
+  right: 0;
+  background-color: #5751E1;
+  height: 3px;
+  width: 100%;
+}
+.book_details_tabs .stars img.active {
+  filter: sepia(1) saturate(10000%) hue-rotate(251deg);
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";

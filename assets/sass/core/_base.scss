@@ -629,3 +629,36 @@ form.inc_dec {
         }
     }
 }
+
+.book_details_tabs{
+    .nav.nav-pills{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        li{
+            button{
+                color: $third-color;
+            }
+            button.active{
+                position: relative;
+                background-color: transparent;
+                color: $primary-color;
+                border: 0;
+                font-weight: bold;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 49px;
+                    right: 0;
+                    background-color: $primary-color;
+                    height: 3px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .stars{
+        img.active{
+            filter: sepia(1) saturate(10000%) hue-rotate(251deg);
+        }
+    }
+}
