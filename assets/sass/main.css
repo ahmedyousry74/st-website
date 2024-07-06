@@ -624,7 +624,6 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .profile-dropdown .profile-toggle {
   background: transparent !important;
   position: relative;
-  top: -9px;
 }
 
 .profile-dropdown .profile-toggle .avatar {
@@ -673,7 +672,6 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .profile-dropdown .dropdown-item:hover {
   background: transparent;
   color: #444;
-  margin-inline-start: 10px;
 }
 
 .profile-dropdown .profile-toggle.dropdown-toggle:hover .dropdown-menu {
