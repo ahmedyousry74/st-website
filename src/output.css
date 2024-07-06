@@ -1145,6 +1145,10 @@ video {
   width: 250px;
 }
 
+.w-\[600px\] {
+  width: 600px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
