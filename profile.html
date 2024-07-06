@@ -206,7 +206,7 @@
                 </button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="!text-[16px] !font-medium text-[#737477] nav-link !flex justify-start items-start flex-row gap-2" id="pills-wishlist-tab" data-bs-toggle="pill" data-bs-target="#pills-wishlist" type="button" role="tab" aria-controls="pills-wishlist" aria-selected="false">
+                <button class="!text-[16px] !font-medium text-[#737477] nav-link !flex justify-start items-start flex-row gap-2" id="pills-orders-tab" data-bs-toggle="pill" data-bs-target="#pills-orders" type="button" role="tab" aria-controls="pills-orders" aria-selected="false">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16.5 8.63005C16.09 8.63005 15.75 8.29005 15.75 7.88005V6.50005C15.75 5.45006 15.3 4.43005 14.52 3.72005C13.73 3.00005 12.71 2.67005 11.63 2.77005C9.83 2.94005 8.25 4.78005 8.25 6.70005V7.67005C8.25 8.08005 7.91 8.42005 7.5 8.42005C7.09 8.42005 6.75 8.08005 6.75 7.67005V6.69005C6.75 4.00005 8.92 1.52005 11.49 1.27005C12.99 1.13005 14.43 1.60005 15.53 2.61005C16.62 3.60005 17.25 5.02005 17.25 6.50005V7.88005C17.25 8.29005 16.91 8.63005 16.5 8.63005Z" fill="#737477"/>
                     <path d="M14.9998 22.75H8.99982C4.37982 22.75 3.51982 20.6 3.29982 18.51L2.54982 12.52C2.43982 11.44 2.39982 9.89 3.44982 8.73C4.34982 7.73 5.83982 7.25 7.99982 7.25H15.9998C18.1698 7.25 19.6598 7.74 20.5498 8.73C21.5898 9.89 21.5598 11.44 21.4498 12.5L20.6998 18.51C20.4798 20.6 19.6198 22.75 14.9998 22.75ZM7.99982 8.75C6.30982 8.75 5.14982 9.08 4.55982 9.74C4.06982 10.28 3.90982 11.11 4.03982 12.35L4.78982 18.34C4.95982 19.94 5.39982 21.26 8.99982 21.26H14.9998C18.5998 21.26 19.0398 19.95 19.2098 18.36L19.9598 12.35C20.0898 11.13 19.9298 10.3 19.4398 9.75C18.8498 9.08 17.6898 8.75 15.9998 8.75H7.99982Z" fill="#737477"/>
@@ -217,7 +217,7 @@
                 </button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="!text-[16px] !font-medium text-[#737477] nav-link !flex justify-start items-start flex-row gap-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <button class="!text-[16px] !font-medium text-[#737477] nav-link !flex justify-start items-start flex-row gap-2" id="pills-wishlist-tab" data-bs-toggle="pill" data-bs-target="#pills-wishlist" type="button" role="tab" aria-controls="pills-wishlist" aria-selected="false">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 7.8C5 6.11984 5 5.27976 5.32698 4.63803C5.6146 4.07354 6.07354 3.6146 6.63803 3.32698C7.27976 3 8.11984 3 9.8 3H14.2C15.8802 3 16.7202 3 17.362 3.32698C17.9265 3.6146 18.3854 4.07354 18.673 4.63803C19 5.27976 19 6.11984 19 7.8V21L12 17L5 21V7.8Z" stroke="#737477" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>                    
@@ -267,6 +267,43 @@
                 </div>
               </div>
               <div class="tab-pane fade" id="pills-wishlist" role="tabpanel" aria-labelledby="pills-wishlist-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <a href="">
+                        <div class="book_item relative bg-[#fff] border border-solid border-fifth-color rounded-xl flex justify-start items-start flex-col">
+                          <div class="book_img w-full flex justify-center items-center">
+                            <img src="./assets/images/book1.webp" alt="book" width="250" height="250" class="object-contain">
+                          </div>
+                          <div class="pb-[25px] px-[5px] sm:px-[25px]">
+                            <div class="book_desc mb-[8px]">
+                              <h1 class="text-third-color font-medium sm:font-semibold text-[15px] sm:text-[18px]"> كتاب مميز يحكي عن العلوم </h1>
+                            </div>
+                            <div class="book_desc mb-[8px]">
+                              <p class="text-fourth-color font-medium text-[11px] sm:text-[15px] "> ...لوريم إيبسوم هو نص مؤقت يستخدم في التصميم والنشر  </p>
+                            </div>
+                            <div class="book_author flex justify-between items-center flex-wrap w-full">
+                              <span class="bg-second-color text-primary-color font-medium sm:font-bold  text-[14px] rounded-full py-[5px] px-[12px] sm:px-[15px] mb-[5px] sm:mb-[15px]" > أحمد يسري </span>
+                              <span class="text-primary-color font-normal text-[15px]"> 120 ر.س </span>
+                            </div>
+                          </div>
+                          <div class="book_catg absolute top-[8px] sm:top-[15px] left-[8px] sm:left-[20px]">
+                            <span class="bg-[#f4e6e5] text-third-color font-normal text-[12px] sm:text-[14px] px-[8px] sm:px-[25px] py-[5px] rounded-full"> العلوم </span>
+                          </div>
+                          <button class="book_catg absolute top-[8px] sm:top-[15px] right-[8px] sm:right-[20px]">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g opacity="0.4">
+                              <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M17 22C17.5523 22 18 21.5523 18 21C18 20.4477 17.5523 20 17 20C16.4477 20 16 20.4477 16 21C16 21.5523 16.4477 22 17 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <path d="M2 2H3.30616C3.55218 2 3.67519 2 3.77418 2.04524C3.86142 2.08511 3.93535 2.14922 3.98715 2.22995C4.04593 2.32154 4.06333 2.44332 4.09812 2.68686L4.57143 6M4.57143 6L5.62332 13.7314C5.75681 14.7125 5.82355 15.2031 6.0581 15.5723C6.26478 15.8977 6.56108 16.1564 6.91135 16.3174C7.30886 16.5 7.80394 16.5 8.79411 16.5H17.352C18.2945 16.5 18.7658 16.5 19.151 16.3304C19.4905 16.1809 19.7818 15.9398 19.9923 15.6342C20.2309 15.2876 20.3191 14.8247 20.4955 13.8988L21.8191 6.94969C21.8812 6.62381 21.9122 6.46087 21.8672 6.3335C21.8278 6.22177 21.7499 6.12768 21.6475 6.06802C21.5308 6 21.365 6 21.0332 6H4.57143Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </button>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              <div class="tab-pane fade" id="pills-orders" role="tabpanel" aria-labelledby="pills-orders-tab" tabindex="0">
                 <div class="table-responsive">
                   <table class="table table-bordered">
                     <thead>
@@ -344,8 +381,67 @@
                   </table>
                 </div>
               </div>
-              <div class="tab-pane fade" id="pills-orders" role="tabpanel" aria-labelledby="pills-orders-tab" tabindex="0">...</div>
-              <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab" tabindex="0">...</div>
+              <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab" tabindex="0">
+                <div class="table-responsive">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-third-color font-semibold text-[16px]">المنتج</th>
+                        <th scope="col" class="text-third-color font-semibold text-[16px]">التاريخ</th>
+                        <th scope="col" class="text-third-color font-semibold text-[16px]">التعليق</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="flex justify-start items-col flex-col gap-1">
+                            <img src="./assets/images/1.jpg" alt="book" width="90" height="90">
+                            <span class="text-fourth-color text-[15px] font-medium !h-auto"> كتاب 1 </span>
+                          </div>
+                        </td>
+                        <td>
+                          <span class="text-fourth-color text-[15px] font-medium !h-auto"> 27-11-2020 </span>
+                        </td>
+                        <td>
+                          <div class="flex justify-start items-start flex-col gap-1">
+                            <span class="text-fourth-color text-[15px] font-medium !h-auto" >   لوريم إيبسوم هو نص مؤقت يستخدم في التصميم والنشر لإظهار شكل الوثيقة أو الخط دون الاعتماد على محتوى معنوي  </span>
+                            <div class="stars flex justify-start items-start flex-row gap-1">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy" class="active">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy" class="active">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy" class="active">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy">
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="flex justify-start items-col flex-col gap-1">
+                            <img src="./assets/images/1.jpg" alt="book" width="90" height="90">
+                            <span class="text-fourth-color text-[15px] font-medium !h-auto"> كتاب 1 </span>
+                          </div>
+                        </td>
+                        <td>
+                          <span class="text-fourth-color text-[15px] font-medium !h-auto"> 27-11-2020 </span>
+                        </td>
+                        <td>
+                          <div class="flex justify-start items-start flex-col gap-1">
+                            <span class="text-fourth-color text-[15px] font-medium !h-auto" >   لوريم إيبسوم هو نص مؤقت يستخدم في التصميم والنشر لإظهار شكل الوثيقة أو الخط دون الاعتماد على محتوى معنوي  </span>
+                            <div class="stars flex justify-start items-start flex-row gap-1">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy" class="active">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy" class="active">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy" class="active">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy">
+                              <img src="./assets/images/star.svg" alt="star" width="20" height="20" loading="lazy">
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
         </div>

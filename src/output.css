@@ -1057,8 +1057,16 @@ video {
   height: 1px !important;
 }
 
+.\!h-\[45px\] {
+  height: 45px !important;
+}
+
 .\!h-\[50px\] {
   height: 50px !important;
+}
+
+.\!h-auto {
+  height: auto !important;
 }
 
 .h-10 {
@@ -1111,22 +1119,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[45\] {
-  height: 45;
-}
-
-.h-\[45px\] {
-  height: 45px;
-}
-
-.\!h-\[45px\] {
-  height: 45px !important;
 }
 
 .\!w-\[50px\] {

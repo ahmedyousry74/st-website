@@ -743,6 +743,19 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   justify-content: center;
   align-items: center;
 }
+.profile__info #pills-reviews thead tr th, .profile__info #pills-orders thead tr th {
+  background: #F9F8FF;
+}
+.profile__info #pills-reviews tr:nth-child(even), .profile__info #pills-orders tr:nth-child(even) {
+  background: #F9F8FF !important;
+}
+.profile__info #pills-reviews tr:nth-child(even) td, .profile__info #pills-orders tr:nth-child(even) td {
+  background-color: transparent !important;
+}
+
+.stars img.active {
+  filter: sepia(1) saturate(10000%) hue-rotate(251deg);
+}
 
 footer .footer_links h2:after {
   position: absolute;

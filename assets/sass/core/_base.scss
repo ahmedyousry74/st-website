@@ -809,4 +809,19 @@ form.inc_dec {
             }
         }
     }
+    #pills-reviews thead tr th,#pills-orders thead tr th {
+        background: #F9F8FF;
+    }
+    #pills-reviews tr:nth-child(even),#pills-orders tr:nth-child(even) {
+        background: #F9F8FF !important;
+        td{
+            background-color: transparent !important;
+        }
+    }
 }
+.stars{
+    img.active{
+        filter: sepia(1) saturate(10000%) hue-rotate(251deg);
+    }
+}
+
