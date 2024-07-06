@@ -738,3 +738,21 @@ form.inc_dec {
 .profile-dropdown .dropdown-toggle::after{
     display: none;
 }
+
+.section__user__info{
+    button{
+        &.active{
+            background-color: transparent !important;
+            color: $primary-color !important;
+            font-weight: 600;
+            span{
+                color: $primary-color;
+                font-weight: 600;
+            }
+            svg,path{
+                color: $primary-color;
+                fill: $primary-color;
+            }
+        }
+    }
+}

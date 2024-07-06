@@ -682,6 +682,20 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   display: none;
 }
 
+.section__user__info button.active {
+  background-color: transparent !important;
+  color: #5751E1 !important;
+  font-weight: 600;
+}
+.section__user__info button.active span {
+  color: #5751E1;
+  font-weight: 600;
+}
+.section__user__info button.active svg, .section__user__info button.active path {
+  color: #5751E1;
+  fill: #5751E1;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
