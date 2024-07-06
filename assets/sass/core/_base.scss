@@ -796,3 +796,17 @@ form.inc_dec {
         }
     }
 }
+
+.profile__info{
+    table {
+        td {
+            text-align: center;
+            span {
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

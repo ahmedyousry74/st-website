@@ -1113,6 +1113,22 @@ video {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[45\] {
+  height: 45;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
+.\!h-\[45px\] {
+  height: 45px !important;
+}
+
 .\!w-\[50px\] {
   width: 50px !important;
 }
@@ -1143,10 +1159,6 @@ video {
 
 .w-\[250px\] {
   width: 250px;
-}
-
-.w-\[600px\] {
-  width: 600px;
 }
 
 .w-\[this-is\\\\\] {
@@ -2102,6 +2114,10 @@ video {
 
 .break-keep {
   word-break: keep-all;
+}
+
+.\!rounded-\[6px\] {
+  border-radius: 6px !important;
 }
 
 .rounded {

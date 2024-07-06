@@ -734,6 +734,16 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   font-weight: 400;
 }
 
+.profile__info table td {
+  text-align: center;
+}
+.profile__info table td span {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
