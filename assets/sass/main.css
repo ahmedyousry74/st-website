@@ -757,6 +757,23 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   filter: sepia(1) saturate(10000%) hue-rotate(251deg);
 }
 
+.fav__book svg.active,
+.fav__book svg.active path {
+  color: #5751E1 !important;
+  fill: #5751E1 !important;
+}
+
+@media (max-width: 580px) {
+  .book__item .product__info p {
+    word-wrap: break-word;
+    width: 200px !important;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
 footer .footer_links h2:after {
   position: absolute;
   content: "";

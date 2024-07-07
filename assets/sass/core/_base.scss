@@ -824,4 +824,20 @@ form.inc_dec {
         filter: sepia(1) saturate(10000%) hue-rotate(251deg);
     }
 }
+.fav__book svg.active,
+.fav__book svg.active path{
+    color: $primary-color !important;
+    fill: $primary-color !important;
+}
 
+@media(max-width: 580px){
+    .book__item .product__info p{
+            word-wrap: break-word;
+            width: 200px !important;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+    }
+}
