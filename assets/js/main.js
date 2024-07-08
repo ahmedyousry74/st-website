@@ -44,7 +44,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-document.getElementById('toggleButton').addEventListener('click', function() {
-  document.getElementById('heartIcon').classList.toggle('active');
-});

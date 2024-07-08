@@ -824,8 +824,11 @@ form.inc_dec {
         filter: sepia(1) saturate(10000%) hue-rotate(251deg);
     }
 }
+
 .fav__book svg.active,
-.fav__book svg.active path{
+.fav__book svg.active path,
+.toggleButton svg.active,
+.toggleButton svg.active path{
     color: $primary-color !important;
     fill: $primary-color !important;
 }

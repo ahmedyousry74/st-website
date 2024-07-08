@@ -759,7 +759,9 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 }
 
 .fav__book svg.active,
-.fav__book svg.active path {
+.fav__book svg.active path,
+.toggleButton svg.active,
+.toggleButton svg.active path {
   color: #5751E1 !important;
   fill: #5751E1 !important;
 }
