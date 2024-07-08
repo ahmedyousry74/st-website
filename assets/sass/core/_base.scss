@@ -879,3 +879,11 @@ form.inc_dec {
         width: 100% !important;
     }
 }
+
+.checkout__page{
+    input{
+        &::placeholder{
+            font-size: 14px;
+        }
+    }
+}

@@ -815,6 +815,13 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
     width: 100% !important;
   }
 }
+.checkout__page input::-moz-placeholder {
+  font-size: 14px;
+}
+.checkout__page input::placeholder {
+  font-size: 14px;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
