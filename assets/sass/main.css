@@ -863,6 +863,14 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   color: #6D6C80;
 }
 
+@media (min-width: 1024px) {
+  header {
+    height: 480px;
+  }
+  .carousel-inner, .carousel-item {
+    height: 480px;
+  }
+}
 footer .footer_links h2:after {
   position: absolute;
   content: "";

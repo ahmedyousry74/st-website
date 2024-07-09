@@ -930,3 +930,11 @@ form.inc_dec {
         }
     }
 }
+@media(min-width: 1024px){
+    header{
+        height: 480px;
+    }
+    .carousel-inner,.carousel-item{
+        height: 480px;
+    }
+}
