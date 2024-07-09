@@ -824,6 +824,45 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   font-size: 14px;
 }
 
+.categories__items .accordion {
+  border: 0 !important;
+  padding: 0 !important;
+}
+.categories__items .accordion .accordion-item {
+  border: 0 !important;
+  padding: 0 !important;
+}
+.categories__items .accordion .accordion-button {
+  padding: 8px 0 !important;
+  color: #161439;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.categories__items .accordion .accordion-button::after {
+  margin-right: auto;
+  margin-left: 0 !important;
+}
+.categories__items .accordion .collapse {
+  visibility: visible !important;
+}
+.categories__items .accordion .accordion-body {
+  padding: 8px 0 !important;
+}
+.categories__items input[type=checkbox]:checked {
+  background-color: #5751E1;
+  color: #5751E1;
+  border-color: #5751E1;
+}
+.categories__items .accordion-button:focus {
+  box-shadow: none !important;
+}
+.categories__items .form-check {
+  margin-bottom: 8px;
+}
+.categories__items .form-check label {
+  color: #6D6C80;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";

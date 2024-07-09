@@ -890,3 +890,43 @@ form.inc_dec {
         }
     }
 }
+.categories__items{
+    .accordion{
+        border: 0 !important;
+        padding: 0 !important;
+        .accordion-item{
+            border: 0 !important;
+            padding: 0 !important;
+        }
+        .accordion-button{
+            padding: 8px 0 !important;
+            color: $third-color;
+            background-color: transparent !important;
+            box-shadow: none !important;
+            &::after{
+                margin-right: auto;
+                margin-left: 0 !important;
+            }
+        }
+        .collapse {
+            visibility: visible !important;
+        }
+        .accordion-body {
+            padding: 8px 0 !important;
+        }
+    }
+    input[type=checkbox]:checked {
+        background-color: $primary-color;
+        color: $primary-color;
+        border-color: $primary-color;
+    }
+    .accordion-button:focus {
+        box-shadow:  none !important;
+    }
+    .form-check{
+        margin-bottom: 8px;
+        label{
+            color: $fourth-color;
+        }
+    }
+}
