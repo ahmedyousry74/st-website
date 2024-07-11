@@ -146,7 +146,7 @@
         </div>
         <div class="col-md-9">
           <div class="bookShekf_content  sm:mt-[0px] py-[50px] lg:px-[50px] px-[20px]  w-full">
-            <h2 class="text-third-color font-semibold text-[22px] mb-4"> المكتبة </h2>
+            <h2 class="text-third-color font-semibold text-[22px] mb-4"> المفضلة </h2>
             <div class="row w-full">
               <div class="col-md-4">
                 <div class="book__item mb-[20px] border border-solid border-[#DDD8F9] rounded-[6px] sm:p-[24px] p-[12px] relative">
@@ -375,5 +375,15 @@
         function openSidebar() {
           document.querySelector(".sidebar").classList.toggle("hidden");
         }
-      </script>    </body>
+      </script>    
+                  <script>
+                    document.querySelectorAll('.toggleButton').forEach(button => {
+                        button.addEventListener('click', function() {
+                            const heartIcon = this.querySelector('.heartIcon');
+                            heartIcon.classList.toggle('active');
+                        });
+                    });
+                  </script>  
+
+    </body>
   </html>
