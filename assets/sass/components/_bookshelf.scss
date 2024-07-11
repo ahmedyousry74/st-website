@@ -1,0 +1,21 @@
+.bookShelf{
+    .sidebar{
+        a{
+            &.active{
+                color: $primary-color;
+            }
+        }
+        .sidebar_item{
+            &.active,&:hover{
+                background-color: $primary-color;
+                svg,path{
+                    color: #fff !important;
+                    fill: #fff !important;
+                }
+                span{
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+}

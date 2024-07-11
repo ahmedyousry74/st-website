@@ -871,6 +871,11 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
     height: 480px;
   }
 }
+#sidebar-nav {
+  width: 160px;
+  direction: rtl;
+}
+
 footer .footer_links h2:after {
   position: absolute;
   content: "";
@@ -1060,4 +1065,17 @@ header .header_img, header .header_info {
   100% {
     transform: rotate(360deg);
   }
+}
+.bookShelf .sidebar a.active {
+  color: #5751E1;
+}
+.bookShelf .sidebar .sidebar_item.active, .bookShelf .sidebar .sidebar_item:hover {
+  background-color: #5751E1;
+}
+.bookShelf .sidebar .sidebar_item.active svg, .bookShelf .sidebar .sidebar_item.active path, .bookShelf .sidebar .sidebar_item:hover svg, .bookShelf .sidebar .sidebar_item:hover path {
+  color: #fff !important;
+  fill: #fff !important;
+}
+.bookShelf .sidebar .sidebar_item.active span, .bookShelf .sidebar .sidebar_item:hover span {
+  color: #fff !important;
 }/*# sourceMappingURL=main.css.map */
