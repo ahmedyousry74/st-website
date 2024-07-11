@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="bookShelf">
+    <div class="bookShelf bookshelf__search">
       <div class="row">
         <div class="col-md-3">
           <span
@@ -146,9 +146,116 @@
           </div>
         </div>
         <div class="col-md-9">
-          <div class="bookShekf_content  sm:mt-[0px] py-[50px] lg:px-[50px] px-[20px] flex justify-start items-start flex-col gap-5 w-full">
-
-          </div>
+          <div class="bookShekf_content  sm:mt-[0px] flex justify-start items-start flex-col gap-5 w-full">
+            <div class="top_navbar flex justify-center flex-row items-center w-full bg-primary-color py-3 lg:px-[40px] px-[20px] border-bottom border-solid border-[#ccc] relative h-[200px]">
+              <form action="" class="relative flex justify-start items-start flex-row gap-0 form__search">
+                <input type="text" placeholder="بحث ..." class="!rounded-lg">
+                <button type="submit" class="absolute top-[8px] left-[12px]">
+                  <img src="./assets/images/search.svg" alt="cart" loading="lazy" width="27" height="27">
+                </button>
+              </form>
+            </div>
+            <div class="p-4">
+              <h2 class="text-third-color font-semibold text-[22px] mb-4"> نتائج البحث </h2>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="book__item mb-[20px] border border-solid border-[#DDD8F9] rounded-[6px] sm:p-[24px] p-[12px] relative">
+                    <a href="https://reader.scientific-thought.com/">
+                      <img src="./assets/images/book-1.jpeg" alt="book" width="150" height="150" class="w-full object-cover h-[250px] rounded-[6px]">
+                      <div class="book__details flex justify-start items-center flex-row gap-2 py-2 border-b border-solid border-[#DDD8F9]">
+                        <div class="flex justify-start items-center flex-row gap-1">
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.7399V4.66994C22 3.46994 21.02 2.57994 19.83 2.67994H19.77C17.67 2.85994 14.48 3.92994 12.7 5.04994L12.53 5.15994C12.24 5.33994 11.76 5.33994 11.47 5.15994L11.22 5.00994C9.44 3.89994 6.26 2.83994 4.16 2.66994C2.97 2.56994 2 3.46994 2 4.65994V16.7399C2 17.6999 2.78 18.5999 3.74 18.7199L4.03 18.7599C6.2 19.0499 9.55 20.1499 11.47 21.1999L11.51 21.2199C11.78 21.3699 12.21 21.3699 12.47 21.2199C14.39 20.1599 17.75 19.0499 19.93 18.7599L20.26 18.7199C21.22 18.5999 22 17.6999 22 16.7399Z" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 5.48999V20.49" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.75 8.48999H5.5" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.5 11.49H5.5" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <span class="text-[#6D6C80] font-medium text-[13px] mb-0"> 250 صفحة </span>
+                        </div>
+                      </div>
+                      <div class="product__info flex justify-start items-start flex-col gap-2 py-[10px]">
+                        <h5 class="text-third-color font-semibold text-[16px]">  كتاب مميز يحكي عن العلوم  </h5>
+                        <p class="text-fourth-color font-medium text-[15px] mb-0 h-[50px] overflow-hidden"> لوريم إيبسوم هو نص مؤقت يستخدم في التصميم والنشر لإظهار شكل الوثيقة أو الخط دون الاعتماد على محتوى </p>
+                      </div>
+                    </a>
+                    <div class="category__book absolute top-[35px] sm:left-[30px] left-[10px]">
+                      <span class="bg-primary-color text-second-color font-medium text-[14px] rounded-[4px] py-[4px] px-[10px]"> التكنولوجيا </span>
+                    </div>
+                    <div class="fav__book absolute top-[35px] sm:right-[30px] right-[10px]">
+                      <button class="toggleButton bg-[#00000059] py-[5px] px-[4px] rounded-[4px]">  
+                            <svg class="heartIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.44 3.1001C14.63 3.1001 13.01 3.9801 12 5.3301C10.99 3.9801 9.37 3.1001 7.56 3.1001C4.49 3.1001 2 5.6001 2 8.6901C2 9.8801 2.19 10.9801 2.52 12.0001C4.1 17.0001 8.97 19.9901 11.38 20.8101C11.72 20.9301 12.28 20.9301 12.62 20.8101C15.03 19.9901 19.9 17.0001 21.48 12.0001C21.81 10.9801 22 9.8801 22 8.6901C22 5.6001 19.51 3.1001 16.44 3.1001Z" fill="#fff"/>
+                            </svg>                                
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="book__item mb-[20px] border border-solid border-[#DDD8F9] rounded-[6px] sm:p-[24px] p-[12px] relative">
+                    <a href="https://reader.scientific-thought.com/">
+                      <img src="./assets/images/book-1.jpeg" alt="book" width="150" height="150" class="w-full object-cover h-[250px] rounded-[6px]">
+                      <div class="book__details flex justify-start items-center flex-row gap-2 py-2 border-b border-solid border-[#DDD8F9]">
+                        <div class="flex justify-start items-center flex-row gap-1">
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.7399V4.66994C22 3.46994 21.02 2.57994 19.83 2.67994H19.77C17.67 2.85994 14.48 3.92994 12.7 5.04994L12.53 5.15994C12.24 5.33994 11.76 5.33994 11.47 5.15994L11.22 5.00994C9.44 3.89994 6.26 2.83994 4.16 2.66994C2.97 2.56994 2 3.46994 2 4.65994V16.7399C2 17.6999 2.78 18.5999 3.74 18.7199L4.03 18.7599C6.2 19.0499 9.55 20.1499 11.47 21.1999L11.51 21.2199C11.78 21.3699 12.21 21.3699 12.47 21.2199C14.39 20.1599 17.75 19.0499 19.93 18.7599L20.26 18.7199C21.22 18.5999 22 17.6999 22 16.7399Z" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 5.48999V20.49" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.75 8.48999H5.5" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.5 11.49H5.5" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <span class="text-[#6D6C80] font-medium text-[13px] mb-0"> 250 صفحة </span>
+                        </div>
+                      </div>
+                      <div class="product__info flex justify-start items-start flex-col gap-2 py-[10px]">
+                        <h5 class="text-third-color font-semibold text-[16px]">  كتاب مميز يحكي عن العلوم  </h5>
+                        <p class="text-fourth-color font-medium text-[15px] mb-0 h-[50px] overflow-hidden"> لوريم إيبسوم هو نص مؤقت يستخدم في التصميم والنشر لإظهار شكل الوثيقة أو الخط دون الاعتماد على محتوى </p>
+                      </div>
+                    </a>
+                    <div class="category__book absolute top-[35px] sm:left-[30px] left-[10px]">
+                      <span class="bg-primary-color text-second-color font-medium text-[14px] rounded-[4px] py-[4px] px-[10px]"> التكنولوجيا </span>
+                    </div>
+                    <div class="fav__book absolute top-[35px] sm:right-[30px] right-[10px]">
+                      <button class="toggleButton bg-[#00000059] py-[5px] px-[4px] rounded-[4px]">  
+                            <svg class="heartIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.44 3.1001C14.63 3.1001 13.01 3.9801 12 5.3301C10.99 3.9801 9.37 3.1001 7.56 3.1001C4.49 3.1001 2 5.6001 2 8.6901C2 9.8801 2.19 10.9801 2.52 12.0001C4.1 17.0001 8.97 19.9901 11.38 20.8101C11.72 20.9301 12.28 20.9301 12.62 20.8101C15.03 19.9901 19.9 17.0001 21.48 12.0001C21.81 10.9801 22 9.8801 22 8.6901C22 5.6001 19.51 3.1001 16.44 3.1001Z" fill="#fff"/>
+                            </svg>                                
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="book__item mb-[20px] border border-solid border-[#DDD8F9] rounded-[6px] sm:p-[24px] p-[12px] relative">
+                    <a href="https://reader.scientific-thought.com/">
+                      <img src="./assets/images/book-1.jpeg" alt="book" width="150" height="150" class="w-full object-cover h-[250px] rounded-[6px]">
+                      <div class="book__details flex justify-start items-center flex-row gap-2 py-2 border-b border-solid border-[#DDD8F9]">
+                        <div class="flex justify-start items-center flex-row gap-1">
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.7399V4.66994C22 3.46994 21.02 2.57994 19.83 2.67994H19.77C17.67 2.85994 14.48 3.92994 12.7 5.04994L12.53 5.15994C12.24 5.33994 11.76 5.33994 11.47 5.15994L11.22 5.00994C9.44 3.89994 6.26 2.83994 4.16 2.66994C2.97 2.56994 2 3.46994 2 4.65994V16.7399C2 17.6999 2.78 18.5999 3.74 18.7199L4.03 18.7599C6.2 19.0499 9.55 20.1499 11.47 21.1999L11.51 21.2199C11.78 21.3699 12.21 21.3699 12.47 21.2199C14.39 20.1599 17.75 19.0499 19.93 18.7599L20.26 18.7199C21.22 18.5999 22 17.6999 22 16.7399Z" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 5.48999V20.49" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.75 8.48999H5.5" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.5 11.49H5.5" stroke="#6D6C80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <span class="text-[#6D6C80] font-medium text-[13px] mb-0"> 250 صفحة </span>
+                        </div>
+                      </div>
+                      <div class="product__info flex justify-start items-start flex-col gap-2 py-[10px]">
+                        <h5 class="text-third-color font-semibold text-[16px]">  كتاب مميز يحكي عن العلوم  </h5>
+                        <p class="text-fourth-color font-medium text-[15px] mb-0 h-[50px] overflow-hidden"> لوريم إيبسوم هو نص مؤقت يستخدم في التصميم والنشر لإظهار شكل الوثيقة أو الخط دون الاعتماد على محتوى </p>
+                      </div>
+                    </a>
+                    <div class="category__book absolute top-[35px] sm:left-[30px] left-[10px]">
+                      <span class="bg-primary-color text-second-color font-medium text-[14px] rounded-[4px] py-[4px] px-[10px]"> التكنولوجيا </span>
+                    </div>
+                    <div class="fav__book absolute top-[35px] sm:right-[30px] right-[10px]">
+                      <button class="toggleButton bg-[#00000059] py-[5px] px-[4px] rounded-[4px]">  
+                            <svg class="heartIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.44 3.1001C14.63 3.1001 13.01 3.9801 12 5.3301C10.99 3.9801 9.37 3.1001 7.56 3.1001C4.49 3.1001 2 5.6001 2 8.6901C2 9.8801 2.19 10.9801 2.52 12.0001C4.1 17.0001 8.97 19.9901 11.38 20.8101C11.72 20.9301 12.28 20.9301 12.62 20.8101C15.03 19.9901 19.9 17.0001 21.48 12.0001C21.81 10.9801 22 9.8801 22 8.6901C22 5.6001 19.51 3.1001 16.44 3.1001Z" fill="#fff"/>
+                            </svg>                                
+                        </button>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -182,5 +289,15 @@
         function openSidebar() {
           document.querySelector(".sidebar").classList.toggle("hidden");
         }
-      </script>    </body>
+      </script>    
+      
+      <script>
+        document.querySelectorAll('.toggleButton').forEach(button => {
+            button.addEventListener('click', function() {
+                const heartIcon = this.querySelector('.heartIcon');
+                heartIcon.classList.toggle('active');
+            });
+        });
+      </script>  
+    </body>
   </html>
