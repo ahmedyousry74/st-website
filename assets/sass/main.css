@@ -469,14 +469,14 @@ form.inc_dec {
 }
 form.inc_dec .value-button {
   display: inline-block;
-  border: 1px solid #ddd;
+  border: 1px solid #FF9501;
   margin: 0px;
   width: 40px;
   height: 40px;
   text-align: center;
   vertical-align: middle;
   padding: 7px 0;
-  background: #eee;
+  background: #FF9501;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -533,19 +533,19 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 }
 .book-details form.inc_dec .value-button {
   display: inline-block;
-  border: 1px solid #f4e6e5;
+  border: 1px solid #FF9501;
   margin: 0px;
   width: 40px;
   height: 40px;
   text-align: center;
   vertical-align: middle;
   padding: 7px 0;
-  background: #f4e6e5;
+  background: #FF9501;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  color: #000;
+  color: #fff;
   font-size: 18px;
 }
 .book-details form.inc_dec .value-button:hover {
@@ -768,8 +768,8 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .fav__book svg.active path,
 .toggleButton svg.active,
 .toggleButton svg.active path {
-  color: #5751E1 !important;
-  fill: #5751E1 !important;
+  color: #FF9501 !important;
+  fill: #FF9501 !important;
 }
 
 @media (max-width: 580px) {
@@ -888,6 +888,10 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .book__item img {
   -o-object-fit: contain;
      object-fit: contain;
+}
+.book__item .product_add_to_cart button {
+  background-color: #FF9501 !important;
+  color: #fff !important;
 }
 
 footer .footer_links h2:after {
