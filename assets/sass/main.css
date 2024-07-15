@@ -438,6 +438,12 @@ section.popular_books svg {
   }
 }
 
+.auth__layout {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
 .auth__layout input {
   color: #161439;
   font-size: 16px;
@@ -874,6 +880,10 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 #sidebar-nav {
   width: 160px;
   direction: rtl;
+}
+
+.book__item {
+  background-color: #fff;
 }
 
 footer .footer_links h2:after {
