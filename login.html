@@ -168,59 +168,50 @@
       </div>
     </nav>
 
-    <div class="auth__layout h-full">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="auth_layout_img bg-[#553CDF] h-[100%] w-full justify-center items-center flex-row hidden lg:flex">
-                    <img src="./assets/images/login-bg.webp" alt="img" height="500" width="600" loading="lazy">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="auth__form bg-[#fff] sm:p-[40px] p-[20px]">
-                    <div class="form !bg-[#fff] border border-solid border-[#DDD8F9] rounded-lg py-[20px] sm:py-[40px] px-[12px] sm:px-[25px]" style="box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);">
-                        <h2 class="text-third-color font-semibold text-[20px] flex justify-center items-center flex-row w-full mb-[35px]"> تسجيل الدخول 👋 </h2>
-                        <form action="">
-                            <div class="mb-3">
-                                <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> البريد الألكتروني </label>
-                                <input type="email" class="form-control form-control-lg" id="" placeholder="البريد الألكتروني">
-                            </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> كلمة المرور </label>
-                                <input type="password" class="form-control form-control-lg" id="" placeholder="كلمة المرور">
-                            </div>
-                            <div class="mb-3">
-                                <a href="./forget-password.html" class="text-primary-color font-medium text-[16px]"> هل نسيت كلمة المرور ؟  </a>
-                            </div>
-                            <div class="my-3">
-                                <!-- <button type="submit" class="w-full bg-primary-color text-second-color font-semibold text-[17px] rounded-lg py-[12px] px-[20px]"> تسجيل الدخول </button> -->
-                                 <a href="./profile.html" class="w-full bg-primary-color text-second-color font-semibold text-[17px] rounded-lg py-[12px] px-[20px] flex justify-center items-center"> تسجيل الدخول </a>
-                              
-                              </div>
-                            <hr>
-                            <div class="auth__platforms my-4 flex justify-center items-center flex-col gap-3">
-                                <small class="!text-third-color font-medium text-md"> او تسجيل دخول بواسطة </small>
-                                <div class="flex justify-center items-center flex-row gap-4">
-                                    <button> 
-                                        <img src="./assets/images/facebook.svg" alt="facebook">
-                                    </button>
-                                    <button> 
-                                        <img src="./assets/images/twitter.svg" alt="facebook">
-                                    </button>
-                                    <button> 
-                                        <img src="./assets/images/google.svg" alt="facebook">
-                                    </button>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="flex justify-center items-center">
-                                <span class="text-third-color font-medium text-[16px]"> ليس لديك حساب ؟ <a class="text-primary-color font-semibold" href="./signup.html"> حساب جديد </a> </span>
-                            </div>
-                        </form>
+    <section class="auth__layout h-full flex justify-center items-center py-8 px-3" style="background-image: url('./assets/images/bg.avif');">
+      <div class="auth__form bg-[#fff] sm:p-[40px] p-[20px] md:w-[650px] w-full rounded-lg">
+          <div class="form !bg-[#fff] border border-solid border-[#DDD8F9] rounded-lg py-[20px] sm:py-[40px] px-[12px] sm:px-[25px]" style="box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);">
+              <h2 class="text-third-color font-semibold text-[20px] flex justify-center items-center flex-row w-full mb-[35px]"> تسجيل الدخول 👋 </h2>
+              <form action="">
+                  <div class="mb-3">
+                      <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> البريد الألكتروني </label>
+                      <input type="email" class="form-control form-control-lg" id="" placeholder="البريد الألكتروني">
+                  </div>
+                  <div class="mb-3">
+                      <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> كلمة المرور </label>
+                      <input type="password" class="form-control form-control-lg" id="" placeholder="كلمة المرور">
+                  </div>
+                  <div class="mb-3">
+                      <a href="./forget-password.html" class="text-primary-color font-medium text-[16px]"> هل نسيت كلمة المرور ؟  </a>
+                  </div>
+                  <div class="my-3">
+                      <!-- <button type="submit" class="w-full bg-primary-color text-second-color font-semibold text-[17px] rounded-lg py-[12px] px-[20px]"> تسجيل الدخول </button> -->
+                        <a href="./profile.html" class="w-full bg-primary-color text-second-color font-semibold text-[17px] rounded-lg py-[12px] px-[20px] flex justify-center items-center"> تسجيل الدخول </a>
+                    
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                  <hr>
+                  <div class="auth__platforms my-4 flex justify-center items-center flex-col gap-3">
+                      <small class="!text-third-color font-medium text-md"> او تسجيل دخول بواسطة </small>
+                      <div class="flex justify-center items-center flex-row gap-4">
+                          <button> 
+                              <img src="./assets/images/facebook.svg" alt="facebook">
+                          </button>
+                          <button> 
+                              <img src="./assets/images/twitter.svg" alt="facebook">
+                          </button>
+                          <button> 
+                              <img src="./assets/images/google.svg" alt="facebook">
+                          </button>
+                      </div>
+                  </div>
+                  <hr>
+                  <div class="flex justify-center items-center">
+                      <span class="text-third-color font-medium text-[16px]"> ليس لديك حساب ؟ <a class="text-primary-color font-semibold" href="./signup.html"> حساب جديد </a> </span>
+                  </div>
+              </form>
+          </div>
+      </div>
+    </section>
 
     <footer class="bg-[#06042E] lg:px-[100px] px-[40px] lg:py-[60px] py-[30px]">
       <div class="row">

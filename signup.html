@@ -168,77 +168,68 @@
       </div>
     </nav>
 
-    <div class="auth__layout h-full">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="auth_layout_img bg-[#553CDF] h-[100%] w-full justify-center items-center flex-row hidden lg:flex">
-                    <img src="./assets/images/login-bg.webp" alt="img" height="500" width="600" loading="lazy">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="auth__form bg-[#fff] sm:p-[40px] p-[20px]">
-                    <div class="form !bg-[#fff] border border-solid border-[#DDD8F9] rounded-lg py-[20px] sm:py-[40px] px-[12px] sm:px-[25px]" style="box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);">
-                        <h2 class="text-third-color font-semibold text-[20px] flex justify-center items-center flex-row w-full mb-[35px]"> حساب جديد 👋 </h2>
-                        <form action="">
-                            <div class="mb-3">
-                                <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> الإسم بالكامل</label>
-                                <input type="text" class="form-control form-control-lg" id="" placeholder="الإسم بالكامل">
-                            </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> البريد الألكتروني </label>
-                                <input type="email" class="form-control form-control-lg" id="" placeholder="البريد الألكتروني">
-                            </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> رقم الجوال </label>
-                                <input type="number" class="form-control form-control-lg" id="" placeholder="رقم الجوال">
-                            </div>
-                            <div class="flex justify-start items-start flex-col gap-2 mb-3 w-100">
-                              <span for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> الصورة الشخصية </span>
-                              <div class="file__zone d-flex justify-content-center align-items-center flex-column my-3 w-100"
-                                  style="gap: 8px">
-                                  <input class="form-control" type="file" id="formFile">
-                                  <img src="./assets/images/down.svg" alt="download" alt="download"
-                                          loading="lazy" width="40" height="40"/>
-                                  <span> اضغط او قم بالسحب </span>
-                                  <p>png, jpg, jpeg (max. 800x400px)</p>
-                              </div>
-                          </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> كلمة المرور </label>
-                                <input type="password" class="form-control form-control-lg" id="" placeholder="كلمة المرور">
-                            </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> تأكيد كلمة المرور</label>
-                                <input type="password" class="form-control form-control-lg" id="" placeholder="تأكيد كلمة المرور">
-                            </div>
-                            <div class="my-5">
-                                <button type="submit" class="w-full bg-primary-color text-second-color font-semibold text-[17px] rounded-lg py-[12px] px-[20px]"> حساب جديد</button>
-                            </div>
-                            <hr>
-                            <div class="auth__platforms my-4 flex justify-center items-center flex-col gap-3">
-                                <small class="!text-third-color font-medium text-md"> او إنشاء حساب جديد بواسطة </small>
-                                <div class="flex justify-center items-center flex-row gap-4">
-                                    <button> 
-                                        <img src="./assets/images/facebook.svg" alt="facebook">
-                                    </button>
-                                    <button> 
-                                        <img src="./assets/images/twitter.svg" alt="facebook">
-                                    </button>
-                                    <button> 
-                                        <img src="./assets/images/google.svg" alt="facebook">
-                                    </button>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="flex justify-center items-center">
-                                <span class="text-third-color font-medium text-[16px]">  لديك حساب ؟ <a class="text-primary-color font-semibold" href="./login.html"> تسجيل دخول</a> </span>
-                            </div>
-                        </form>
+    <section class="auth__layout h-full flex justify-center items-center py-8 px-3" style="background-image: url('./assets/images/bg.avif');">
+      <div class="auth__form bg-[#fff] sm:p-[40px] p-[20px] md:w-[650px] w-full rounded-lg">
+          <div class="form !bg-[#fff] border border-solid border-[#DDD8F9] rounded-lg py-[20px] sm:py-[40px] px-[12px] sm:px-[25px]" style="box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);">
+              <h2 class="text-third-color font-semibold text-[20px] flex justify-center items-center flex-row w-full mb-[35px]"> حساب جديد 👋 </h2>
+              <form action="">
+                  <div class="mb-3">
+                      <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> الإسم بالكامل</label>
+                      <input type="text" class="form-control form-control-lg" id="" placeholder="الإسم بالكامل">
+                  </div>
+                  <div class="mb-3">
+                      <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> البريد الألكتروني </label>
+                      <input type="email" class="form-control form-control-lg" id="" placeholder="البريد الألكتروني">
+                  </div>
+                  <div class="mb-3">
+                      <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> رقم الجوال </label>
+                      <input type="number" class="form-control form-control-lg" id="" placeholder="رقم الجوال">
+                  </div>
+                  <div class="flex justify-start items-start flex-col gap-2 mb-3 w-100">
+                    <span for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> الصورة الشخصية </span>
+                    <div class="file__zone d-flex justify-content-center align-items-center flex-column my-3 w-100"
+                        style="gap: 8px">
+                        <input class="form-control" type="file" id="formFile">
+                        <img src="./assets/images/down.svg" alt="download" alt="download"
+                                loading="lazy" width="40" height="40"/>
+                        <span> اضغط او قم بالسحب </span>
+                        <p>png, jpg, jpeg (max. 800x400px)</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+                  <div class="mb-3">
+                      <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> كلمة المرور </label>
+                      <input type="password" class="form-control form-control-lg" id="" placeholder="كلمة المرور">
+                  </div>
+                  <div class="mb-3">
+                      <label for="" class="form-label text-third-color font-semibold text-[16px] mb-2"> تأكيد كلمة المرور</label>
+                      <input type="password" class="form-control form-control-lg" id="" placeholder="تأكيد كلمة المرور">
+                  </div>
+                  <div class="my-5">
+                      <button type="submit" class="w-full bg-primary-color text-second-color font-semibold text-[17px] rounded-lg py-[12px] px-[20px]"> حساب جديد</button>
+                  </div>
+                  <hr>
+                  <div class="auth__platforms my-4 flex justify-center items-center flex-col gap-3">
+                      <small class="!text-third-color font-medium text-md"> او إنشاء حساب جديد بواسطة </small>
+                      <div class="flex justify-center items-center flex-row gap-4">
+                          <button> 
+                              <img src="./assets/images/facebook.svg" alt="facebook">
+                          </button>
+                          <button> 
+                              <img src="./assets/images/twitter.svg" alt="facebook">
+                          </button>
+                          <button> 
+                              <img src="./assets/images/google.svg" alt="facebook">
+                          </button>
+                      </div>
+                  </div>
+                  <hr>
+                  <div class="flex justify-center items-center">
+                      <span class="text-third-color font-medium text-[16px]">  لديك حساب ؟ <a class="text-primary-color font-semibold" href="./login.html"> تسجيل دخول</a> </span>
+                  </div>
+              </form>
+          </div>
+      </div>
+    </section>
 
     <footer class="bg-[#06042E] lg:px-[100px] px-[40px] lg:py-[60px] py-[30px]">
       <div class="row">
