@@ -865,10 +865,10 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 
 @media (min-width: 1024px) {
   header {
-    height: 480px;
+    height: calc(100vh - 187px);
   }
   .carousel-inner, .carousel-item {
-    height: 480px;
+    height: calc(100vh - 187px);
   }
 }
 #sidebar-nav {
