@@ -885,6 +885,10 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .book__item {
   background-color: #fff;
 }
+.book__item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 
 footer .footer_links h2:after {
   position: absolute;

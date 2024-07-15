@@ -949,4 +949,7 @@ form.inc_dec {
 }
 .book__item{
     background-color: #fff;
+    img{
+        object-fit: contain;
+    }
 }
