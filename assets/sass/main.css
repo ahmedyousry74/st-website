@@ -925,14 +925,14 @@ nav.inside_pages {
   background-color: #EFEEFE;
 }
 nav.show {
-  background-color: #0057FF;
+  background-color: #fff;
   position: fixed !important;
   transition: top 0.3s;
   z-index: 1000;
   top: 0;
 }
 nav.show .nav-link {
-  color: #fff !important;
+  color: #000 !important;
 }
 @media (max-width: 991px) {
   nav.show {

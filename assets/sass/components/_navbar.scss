@@ -10,13 +10,13 @@ nav{
         background-color: $second-color;
     }
     &.show{
-        background-color: $primary-color;
+        background-color: #fff;
         position: fixed !important;
         transition: top 0.3s;
         z-index: 1000;
         top: 0;
         .nav-link{
-            color: #fff !important;
+            color: #000 !important;
         }
         @media(max-width: 991px){
             background-color: #fff;
