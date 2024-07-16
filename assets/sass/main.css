@@ -913,7 +913,7 @@ footer .footer_links h2:after {
 }
 
 nav {
-  background-color: transparent;
+  background-color: #0057FF;
   width: 100%;
   z-index: 999999;
   width: 100%;
@@ -923,6 +923,12 @@ nav {
 nav.inside_pages {
   position: relative !important;
   background-color: #EFEEFE;
+}
+nav .nav-link {
+  color: #fff !important;
+}
+nav #loginType img, nav img[alt=cart], nav img[alt=s] {
+  filter: invert(100%) brightness(2) !important;
 }
 nav.show {
   background-color: #fff;
