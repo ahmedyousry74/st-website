@@ -24,7 +24,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #5751E1;
+  background-color: #0057FF;
   border-radius: 0px;
   height: 4px;
 }
@@ -247,7 +247,7 @@ section {
   position: absolute;
   top: 60px;
   width: 100%;
-  background-color: #5751E1;
+  background-color: #0057FF;
   right: 0;
   height: 8px;
   border-radius: 25px;
@@ -271,8 +271,8 @@ section {
 }
 .category__items .mixitup-control-active {
   background-color: transparent !important;
-  border: 1px solid #5751E1 !important;
-  color: #5751E1 !important;
+  border: 1px solid #0057FF !important;
+  color: #0057FF !important;
 }
 
 .img-2 {
@@ -286,7 +286,7 @@ section {
   transition: 0.5s ease-in-out all;
 }
 .reader_ai_item:hover {
-  background-color: #5751E1;
+  background-color: #0057FF;
 }
 .reader_ai_item:hover span,
 .reader_ai_item:hover p {
@@ -588,7 +588,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .book_details_tabs .nav.nav-pills li button.active {
   position: relative;
   background-color: transparent;
-  color: #5751E1;
+  color: #0057FF;
   border: 0;
   font-weight: bold;
 }
@@ -597,7 +597,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   position: absolute;
   top: 49px;
   right: 0;
-  background-color: #5751E1;
+  background-color: #0057FF;
   height: 3px;
   width: 100%;
 }
@@ -690,16 +690,16 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 
 .section__user__info button.active {
   background-color: transparent !important;
-  color: #5751E1 !important;
+  color: #0057FF !important;
   font-weight: 600;
 }
 .section__user__info button.active span {
-  color: #5751E1;
+  color: #0057FF;
   font-weight: 600;
 }
 .section__user__info button.active svg, .section__user__info button.active path {
-  color: #5751E1;
-  fill: #5751E1;
+  color: #0057FF;
+  fill: #0057FF;
 }
 
 .edit_profile input::-moz-placeholder {
@@ -805,7 +805,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 }
 
 .section_contact form button {
-  background-color: #5751E1;
+  background-color: #0057FF;
   color: #fff;
   padding: 10px 25px;
   width: 100%;
@@ -855,9 +855,9 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   padding: 8px 0 !important;
 }
 .categories__items input[type=checkbox]:checked {
-  background-color: #5751E1;
-  color: #5751E1;
-  border-color: #5751E1;
+  background-color: #0057FF;
+  color: #0057FF;
+  border-color: #0057FF;
 }
 .categories__items .accordion-button:focus {
   box-shadow: none !important;
@@ -869,14 +869,21 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   color: #6D6C80;
 }
 
-@media (min-width: 1024px) {
-  header {
-    height: calc(100vh - 187px);
-  }
-  .carousel-inner, .carousel-item {
-    height: calc(100vh - 187px);
-  }
+header {
+  height: calc(100vh - 110px);
 }
+
+.carousel-inner, .carousel-item {
+  height: calc(100vh - 110px);
+}
+
+.header_library {
+  height: calc(100vh - 187px);
+}
+.header_library .carousel-inner, .header_library .carousel-item {
+  height: calc(100vh - 187px);
+}
+
 #sidebar-nav {
   width: 160px;
   direction: rtl;
@@ -897,7 +904,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 footer .footer_links h2:after {
   position: absolute;
   content: "";
-  background-color: #5751E1;
+  background-color: #0057FF;
   height: 3px;
   width: 52px;
   border-radius: 30px;
@@ -918,7 +925,7 @@ nav.inside_pages {
   background-color: #EFEEFE;
 }
 nav.show {
-  background-color: #5751E1;
+  background-color: #0057FF;
   position: fixed !important;
   transition: top 0.3s;
   z-index: 1000;
@@ -952,15 +959,15 @@ nav .offcanvas-body ul .nav-item .nav-link {
   position: relative;
 }
 nav .offcanvas-body ul .nav-item .nav-link:hover {
-  color: #5751E1;
+  color: #0057FF;
 }
 nav .offcanvas-body ul .nav-item .nav-link.active {
-  color: #5751E1;
+  color: #0057FF;
   font-weight: 800;
 }
 nav .offcanvas-body .auth__navbar {
   gap: 50px;
-  background-color: #5751E1;
+  background-color: #0057FF;
   color: #fff;
   padding: 10px 25px;
   border-radius: 25px;
@@ -986,7 +993,7 @@ nav .navbar-toggler:active, nav .navbar-toggler:focus {
   box-shadow: none;
 }
 nav .offcanvas.offcanvas-start-lg {
-  background: #5751E1;
+  background: #0057FF;
   height: 100%;
   width: 250px;
   right: 0;
@@ -1085,10 +1092,10 @@ header .header_img, header .header_info {
   }
 }
 .bookShelf .sidebar a.active {
-  color: #5751E1;
+  color: #0057FF;
 }
 .bookShelf .sidebar .sidebar_item.active, .bookShelf .sidebar .sidebar_item:hover {
-  background-color: #5751E1;
+  background-color: #0057FF;
 }
 .bookShelf .sidebar .sidebar_item.active svg, .bookShelf .sidebar .sidebar_item.active path, .bookShelf .sidebar .sidebar_item:hover svg, .bookShelf .sidebar .sidebar_item:hover path {
   color: #fff !important;
