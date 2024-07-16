@@ -1,4 +1,8 @@
 footer {
+    background-color: $primary-color !important;
+    *{
+        color: #fff !important;
+    }
     .footer_links {
         h2 {
             &:after {
@@ -12,5 +16,17 @@ footer {
                 right: 0;
             }
         }
+        a{
+            svg,path{
+                color: #fff !important;
+                fill: #fff !important;
+            }
+        }
     }
+}
+.copyRight {
+    background: #fff !important;
+    *{
+        color: $primary-color !important
+    };
 }

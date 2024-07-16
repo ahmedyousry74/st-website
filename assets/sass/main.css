@@ -24,7 +24,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0057FF;
+  background-color: #082CC8;
   border-radius: 0px;
   height: 4px;
 }
@@ -247,7 +247,7 @@ section {
   position: absolute;
   top: 60px;
   width: 100%;
-  background-color: #0057FF;
+  background-color: #082CC8;
   right: 0;
   height: 8px;
   border-radius: 25px;
@@ -271,8 +271,8 @@ section {
 }
 .category__items .mixitup-control-active {
   background-color: transparent !important;
-  border: 1px solid #0057FF !important;
-  color: #0057FF !important;
+  border: 1px solid #082CC8 !important;
+  color: #082CC8 !important;
 }
 
 .img-2 {
@@ -286,7 +286,7 @@ section {
   transition: 0.5s ease-in-out all;
 }
 .reader_ai_item:hover {
-  background-color: #0057FF;
+  background-color: #082CC8;
 }
 .reader_ai_item:hover span,
 .reader_ai_item:hover p {
@@ -588,7 +588,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .book_details_tabs .nav.nav-pills li button.active {
   position: relative;
   background-color: transparent;
-  color: #0057FF;
+  color: #082CC8;
   border: 0;
   font-weight: bold;
 }
@@ -597,7 +597,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   position: absolute;
   top: 49px;
   right: 0;
-  background-color: #0057FF;
+  background-color: #082CC8;
   height: 3px;
   width: 100%;
 }
@@ -690,16 +690,16 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 
 .section__user__info button.active {
   background-color: transparent !important;
-  color: #0057FF !important;
+  color: #082CC8 !important;
   font-weight: 600;
 }
 .section__user__info button.active span {
-  color: #0057FF;
+  color: #082CC8;
   font-weight: 600;
 }
 .section__user__info button.active svg, .section__user__info button.active path {
-  color: #0057FF;
-  fill: #0057FF;
+  color: #082CC8;
+  fill: #082CC8;
 }
 
 .edit_profile input::-moz-placeholder {
@@ -805,7 +805,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 }
 
 .section_contact form button {
-  background-color: #0057FF;
+  background-color: #082CC8;
   color: #fff;
   padding: 10px 25px;
   width: 100%;
@@ -855,9 +855,9 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   padding: 8px 0 !important;
 }
 .categories__items input[type=checkbox]:checked {
-  background-color: #0057FF;
-  color: #0057FF;
-  border-color: #0057FF;
+  background-color: #082CC8;
+  color: #082CC8;
+  border-color: #082CC8;
 }
 .categories__items .accordion-button:focus {
   box-shadow: none !important;
@@ -901,19 +901,36 @@ header {
   color: #fff !important;
 }
 
+footer {
+  background-color: #082CC8 !important;
+}
+footer * {
+  color: #fff !important;
+}
 footer .footer_links h2:after {
   position: absolute;
   content: "";
-  background-color: #0057FF;
+  background-color: #082CC8;
   height: 3px;
   width: 52px;
   border-radius: 30px;
   top: 35px;
   right: 0;
 }
+footer .footer_links a svg, footer .footer_links a path {
+  color: #fff !important;
+  fill: #fff !important;
+}
+
+.copyRight {
+  background: #fff !important;
+}
+.copyRight * {
+  color: #082CC8 !important;
+}
 
 nav {
-  background-color: #0057FF;
+  background-color: #082CC8;
   width: 100%;
   z-index: 999999;
   width: 100%;
@@ -965,15 +982,15 @@ nav .offcanvas-body ul .nav-item .nav-link {
   position: relative;
 }
 nav .offcanvas-body ul .nav-item .nav-link:hover {
-  color: #0057FF;
+  color: #082CC8;
 }
 nav .offcanvas-body ul .nav-item .nav-link.active {
-  color: #0057FF;
+  color: #082CC8;
   font-weight: 800;
 }
 nav .offcanvas-body .auth__navbar {
   gap: 50px;
-  background-color: #0057FF;
+  background-color: #082CC8;
   color: #fff;
   padding: 10px 25px;
   border-radius: 25px;
@@ -999,7 +1016,7 @@ nav .navbar-toggler:active, nav .navbar-toggler:focus {
   box-shadow: none;
 }
 nav .offcanvas.offcanvas-start-lg {
-  background: #0057FF;
+  background: #082CC8;
   height: 100%;
   width: 250px;
   right: 0;
@@ -1098,10 +1115,10 @@ header .header_img, header .header_info {
   }
 }
 .bookShelf .sidebar a.active {
-  color: #0057FF;
+  color: #082CC8;
 }
 .bookShelf .sidebar .sidebar_item.active, .bookShelf .sidebar .sidebar_item:hover {
-  background-color: #0057FF;
+  background-color: #082CC8;
 }
 .bookShelf .sidebar .sidebar_item.active svg, .bookShelf .sidebar .sidebar_item.active path, .bookShelf .sidebar .sidebar_item:hover svg, .bookShelf .sidebar .sidebar_item:hover path {
   color: #fff !important;
