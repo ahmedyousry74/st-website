@@ -877,6 +877,10 @@ header {
   height: calc(100vh - 110px);
 }
 
+.auth__layout {
+  height: calc(100vh - 110px);
+}
+
 .header_library {
   height: calc(100vh - 187px);
 }
