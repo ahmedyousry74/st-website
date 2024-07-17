@@ -936,10 +936,10 @@ form.inc_dec {
 }
 // @media(min-width: 1024px){
     header{
-        height: calc(100vh - 110px)
-    }
-    .carousel-inner,.carousel-item{
-        height: calc(100vh - 110px)
+        height: calc(100vh - 110px);
+        .carousel-inner,.carousel-item{
+            height: calc(100vh - 110px)
+        }
     }
     .auth__layout{
         height: calc(100vh - 110px)
@@ -1003,3 +1003,94 @@ form.inc_dec {
         }
     }
 }
+.header_university{
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: rgba(0,0,0,0.5);
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+.mouse-down {
+    position: absolute;
+    max-width: 100px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    z-index: 9;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    transform: translateY(-50%);
+    margin-top: 60px;
+    @media(max-width: 767px){
+      top: 55%;
+    }
+    .mouse {
+      position: relative;
+      border: 3px solid #fff;
+      width: 25px;
+      height: 40px;
+      border-radius: 30px;
+      margin: auto;
+      .rat {
+        position: absolute;
+        width: 2px;
+        height: 7px;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 30px;
+        animation: moveUpAnimation 1s linear infinite;
+      }
+  
+      @keyframes moveUpAnimation {
+        0% {
+          transform: translate(0, 0);
+        }
+  
+        25% {
+          transform: translate(0, -5px);
+        }
+        50% {
+          transform: translate(0, -10px);
+        }
+        75% {
+          transform: translate(0, -5px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+    }
+  }
+
+  .category__item{
+      .category__img{
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(0,0,0,0.5);
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+    h3{
+        z-index: 999;
+        color: #fff !important;
+        font-size: 35px;
+    }
+  }
