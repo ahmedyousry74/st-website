@@ -905,6 +905,40 @@ header {
   color: #fff !important;
 }
 
+.university__item {
+  transition: 0.5s ease-in-out all;
+  margin-bottom: 16px;
+}
+.university__item img {
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.university__item::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  opacity: 0;
+}
+.university__item:hover::after {
+  opacity: 1;
+}
+.university__item:hover .university_info {
+  z-index: 999;
+  opacity: 1 !important;
+}
+.university__item:hover .university_info h2 {
+  color: #fff !important;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
 footer {
   background-color: #082CC8 !important;
 }
