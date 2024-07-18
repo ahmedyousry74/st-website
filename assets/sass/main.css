@@ -1194,7 +1194,7 @@ nav.show #loginType {
 }
 
 .library_inside_nav {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 .library_inside_nav.show {
   position: relative !important;

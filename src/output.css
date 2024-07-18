@@ -2555,6 +2555,11 @@ video {
   background-color: rgb(230 234 239 / var(--tw-bg-opacity));
 }
 
+.\!bg-primary-color {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(8 44 200 / var(--tw-bg-opacity)) !important;
+}
+
 .bg-\[radial-gradient\(45rem_50rem_at_top\2c theme\(colors\.indigo\.100\)\2c white\)\] {
   background-image: radial-gradient(45rem 50rem at top,#e0e7ff,white);
 }
