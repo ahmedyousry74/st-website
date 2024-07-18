@@ -130,3 +130,9 @@ nav{
         padding: 0 15px !important;
     }
 }
+.library_inside_nav{
+    background-color: transparent !important;
+    &.show{
+        position: relative !important;
+    }
+  }

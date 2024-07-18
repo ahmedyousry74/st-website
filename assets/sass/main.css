@@ -1027,6 +1027,10 @@ header .carousel-inner, header .carousel-item {
   font-size: 35px;
 }
 
+.library_inside_nav {
+  background-color: transparent !important;
+}
+
 footer {
   background-color: #082CC8 !important;
 }
@@ -1187,6 +1191,13 @@ nav.show #loginType {
   nav {
     padding: 0 15px !important;
   }
+}
+
+.library_inside_nav {
+  background-color: transparent !important;
+}
+.library_inside_nav.show {
+  position: relative !important;
 }
 
 @media (max-width: 1024px) {
