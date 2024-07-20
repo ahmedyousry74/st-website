@@ -18,8 +18,8 @@ footer {
         }
         a{
             svg,path{
-                color: #fff !important;
-                fill: #fff !important;
+                color: #fff;
+                fill: #fff;
             }
         }
     }
@@ -29,4 +29,14 @@ footer {
     *{
         color: $primary-color !important
     };
+}
+.footer_jeddah{
+    background-color: #f4f4f4 !important;
+    *{
+        color: $third-color !important;
+    }
+    path,svg {
+        color: $third-color !important;
+        fill: $third-color !important;
+    }
 }

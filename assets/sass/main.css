@@ -970,7 +970,7 @@ header .carousel-inner, header .carousel-item {
 }
 @media (max-width: 767px) {
   .mouse-down {
-    top: 55%;
+    top: 100%;
   }
 }
 .mouse-down .mouse {
@@ -1048,8 +1048,8 @@ footer .footer_links h2:after {
   right: 0;
 }
 footer .footer_links a svg, footer .footer_links a path {
-  color: #fff !important;
-  fill: #fff !important;
+  color: #fff;
+  fill: #fff;
 }
 
 .copyRight {
@@ -1057,6 +1057,17 @@ footer .footer_links a svg, footer .footer_links a path {
 }
 .copyRight * {
   color: #082CC8 !important;
+}
+
+.footer_jeddah {
+  background-color: #f4f4f4 !important;
+}
+.footer_jeddah * {
+  color: #161439 !important;
+}
+.footer_jeddah path, .footer_jeddah svg {
+  color: #161439 !important;
+  fill: #161439 !important;
 }
 
 nav {
