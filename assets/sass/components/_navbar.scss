@@ -27,6 +27,9 @@ nav{
         @media(max-width: 991px){
             background-color: #fff;
         }
+        #loginType img,img[alt='cart'],img[alt='s']{
+            filter: none !important;
+        }
     }
     .colse_{
         filter: invert(1);

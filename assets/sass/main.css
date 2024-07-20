@@ -1103,6 +1103,9 @@ nav.show .nav-link {
     background-color: #fff;
   }
 }
+nav.show #loginType img, nav.show img[alt=cart], nav.show img[alt=s] {
+  filter: none !important;
+}
 nav .colse_ {
   filter: invert(1);
 }
