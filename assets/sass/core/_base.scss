@@ -1102,3 +1102,22 @@ form.inc_dec {
   .category__item{
     margin-bottom: 15px;
   }
+
+  .library___{
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        background-color: #fe940099;
+        width: 100%;
+    }
+    *{
+        z-index: 999;
+    }
+    @media(max-width: 767px){
+        height: 100% !important;
+    }
+  }
