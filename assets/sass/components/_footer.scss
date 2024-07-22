@@ -33,10 +33,15 @@ footer {
 .footer_jeddah{
     background-color: #f4f4f4 !important;
     *{
-        color: $third-color !important;
+        color: #fff !important;
     }
     path,svg {
-        color: $third-color !important;
-        fill: $third-color !important;
+        color: #fff !important;
+        fill: #fff !important;
+    }
+    h2 {
+        &:after {
+            background-color: #fff !important;
+        }
     }
 }

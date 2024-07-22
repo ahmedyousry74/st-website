@@ -1091,10 +1091,14 @@ form.inc_dec {
     h3{
         z-index: 999;
         color: #fff !important;
-        font-size: 35px;
+        font-size: 23px;
+        text-align: center;
     }
   }
 
   .library_inside_nav{
     background-color: transparent !important;
+  }
+  .category__item{
+    margin-bottom: 15px;
   }
