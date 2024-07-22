@@ -909,7 +909,7 @@ header .carousel-inner, header .carousel-item {
   margin-bottom: 16px;
 }
 .university__item img {
-  height: 400px;
+  height: 250px;
   -o-object-fit: contain;
      object-fit: contain;
 }
