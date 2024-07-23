@@ -1,5 +1,5 @@
 nav{
-    background-color: $primary-color;
+    background-color: #fff;
     width: 100%;
     z-index: 999999;
     width: 100%;
@@ -10,10 +10,10 @@ nav{
         background-color: $second-color;
     }
     .nav-link{
-        color: #fff !important;
+        color: $primary-color !important;
     }
     #loginType img,img[alt='cart'],img[alt='s']{
-        filter: invert(100%) brightness(2) !important;
+        // filter: invert(100%) brightness(2) !important;
     }
     &.show{
         background-color: #fff;

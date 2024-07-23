@@ -24,7 +24,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0003FE;
+  background-color: #0A65FE;
   border-radius: 0px;
   height: 4px;
 }
@@ -271,8 +271,8 @@ section {
 }
 .category__items .mixitup-control-active {
   background-color: transparent !important;
-  border: 1px solid #0003FE !important;
-  color: #0003FE !important;
+  border: 1px solid #0A65FE !important;
+  color: #0A65FE !important;
 }
 
 .img-2 {
@@ -286,7 +286,7 @@ section {
   transition: 0.5s ease-in-out all;
 }
 .reader_ai_item:hover {
-  background-color: #0003FE;
+  background-color: #0A65FE;
 }
 .reader_ai_item:hover span,
 .reader_ai_item:hover p {
@@ -588,7 +588,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 .book_details_tabs .nav.nav-pills li button.active {
   position: relative;
   background-color: transparent;
-  color: #0003FE;
+  color: #0A65FE;
   border: 0;
   font-weight: bold;
 }
@@ -597,7 +597,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   position: absolute;
   top: 49px;
   right: 0;
-  background-color: #0003FE;
+  background-color: #0A65FE;
   height: 3px;
   width: 100%;
 }
@@ -690,16 +690,16 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 
 .section__user__info button.active {
   background-color: transparent !important;
-  color: #0003FE !important;
+  color: #0A65FE !important;
   font-weight: 600;
 }
 .section__user__info button.active span {
-  color: #0003FE;
+  color: #0A65FE;
   font-weight: 600;
 }
 .section__user__info button.active svg, .section__user__info button.active path {
-  color: #0003FE;
-  fill: #0003FE;
+  color: #0A65FE;
+  fill: #0A65FE;
 }
 
 .edit_profile input::-moz-placeholder {
@@ -805,7 +805,7 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
 }
 
 .section_contact form button {
-  background-color: #0003FE;
+  background-color: #0A65FE;
   color: #fff;
   padding: 10px 25px;
   width: 100%;
@@ -855,9 +855,9 @@ form.inc_dec input[type=number]::-webkit-outer-spin-button {
   padding: 8px 0 !important;
 }
 .categories__items input[type=checkbox]:checked {
-  background-color: #0003FE;
-  color: #0003FE;
-  border-color: #0003FE;
+  background-color: #0A65FE;
+  color: #0A65FE;
+  border-color: #0A65FE;
 }
 .categories__items .accordion-button:focus {
   box-shadow: none !important;
@@ -1058,7 +1058,7 @@ header .carousel-inner, header .carousel-item {
 }
 
 footer {
-  background-color: #0003FE !important;
+  background-color: #0A65FE !important;
 }
 footer * {
   color: #fff !important;
@@ -1066,7 +1066,7 @@ footer * {
 footer .footer_links h2:after {
   position: absolute;
   content: "";
-  background-color: #0003FE;
+  background-color: #0A65FE;
   height: 3px;
   width: 52px;
   border-radius: 30px;
@@ -1082,7 +1082,7 @@ footer .footer_links a svg, footer .footer_links a path {
   background: #fff !important;
 }
 .copyRight * {
-  color: #0003FE !important;
+  color: #0A65FE !important;
 }
 
 .footer_jeddah {
@@ -1100,7 +1100,7 @@ footer .footer_links a svg, footer .footer_links a path {
 }
 
 nav {
-  background-color: #0003FE;
+  background-color: #fff;
   width: 100%;
   z-index: 999999;
   width: 100%;
@@ -1112,10 +1112,7 @@ nav.inside_pages {
   background-color: #EFEEFE;
 }
 nav .nav-link {
-  color: #fff !important;
-}
-nav #loginType img, nav img[alt=cart], nav img[alt=s] {
-  filter: invert(100%) brightness(2) !important;
+  color: #0A65FE !important;
 }
 nav.show {
   background-color: #fff;
@@ -1155,15 +1152,15 @@ nav .offcanvas-body ul .nav-item .nav-link {
   position: relative;
 }
 nav .offcanvas-body ul .nav-item .nav-link:hover {
-  color: #0003FE;
+  color: #0A65FE;
 }
 nav .offcanvas-body ul .nav-item .nav-link.active {
-  color: #0003FE;
+  color: #0A65FE;
   font-weight: 800;
 }
 nav .offcanvas-body .auth__navbar {
   gap: 50px;
-  background-color: #0003FE;
+  background-color: #0A65FE;
   color: #fff;
   padding: 10px 25px;
   border-radius: 25px;
@@ -1189,7 +1186,7 @@ nav .navbar-toggler:active, nav .navbar-toggler:focus {
   box-shadow: none;
 }
 nav .offcanvas.offcanvas-start-lg {
-  background: #0003FE;
+  background: #0A65FE;
   height: 100%;
   width: 250px;
   right: 0;
@@ -1296,10 +1293,10 @@ header .header_img, header .header_info {
   }
 }
 .bookShelf .sidebar a.active {
-  color: #0003FE;
+  color: #0A65FE;
 }
 .bookShelf .sidebar .sidebar_item.active, .bookShelf .sidebar .sidebar_item:hover {
-  background-color: #0003FE;
+  background-color: #0A65FE;
 }
 .bookShelf .sidebar .sidebar_item.active svg, .bookShelf .sidebar .sidebar_item.active path, .bookShelf .sidebar .sidebar_item:hover svg, .bookShelf .sidebar .sidebar_item:hover path {
   color: #fff !important;
