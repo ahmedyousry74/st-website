@@ -1121,9 +1121,6 @@ nav.show {
   z-index: 1000;
   top: 0;
 }
-nav.show .nav-link {
-  color: #000 !important;
-}
 @media (max-width: 991px) {
   nav.show {
     background-color: #fff;

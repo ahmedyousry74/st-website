@@ -2605,6 +2605,11 @@ video {
   background-color: rgb(230 234 239 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#553ddd\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 61 221 / var(--tw-bg-opacity));
+}
+
 .bg-\[radial-gradient\(45rem_50rem_at_top\2c theme\(colors\.indigo\.100\)\2c white\)\] {
   background-image: radial-gradient(45rem 50rem at top,#e0e7ff,white);
 }
@@ -3343,6 +3348,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(230 234 239 / var(--tw-text-opacity));
+}
+
+.text-\[third-color\] {
+  color: third-color;
 }
 
 .underline {
