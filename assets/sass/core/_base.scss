@@ -973,7 +973,7 @@ form.inc_dec {
     transition: 0.5s ease-in-out all;
     margin-bottom: 16px;
     img{
-        height: 250px;
+        height: 150px;
         object-fit: contain;
     }
     &::after{
@@ -1118,6 +1118,13 @@ form.inc_dec {
         z-index: 999;
     }
     @media(max-width: 767px){
+        height: 100% !important;
+    }
+  }
+
+  .managment_inside{
+    height: calc(100vh - 110px) !important;
+    @media(max-width: 991px){
         height: 100% !important;
     }
   }
