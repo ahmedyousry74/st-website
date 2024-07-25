@@ -946,7 +946,6 @@ header .carousel-inner, header .carousel-item {
 .header_university::after {
   content: "";
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
   right: 0;
   top: 0;
   height: 100%;
