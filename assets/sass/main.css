@@ -1065,6 +1065,40 @@ header .carousel-inner, header .carousel-item {
   }
 }
 
+.testimonials__ .review__img {
+  height: 242px;
+  width: 100%;
+}
+.testimonials__ .review__img img {
+  border-bottom-right-radius: 100%;
+  border-top-right-radius: 100%;
+  margin-top: -45px;
+  margin-bottom: -25px;
+}
+
+@media (max-width: 767px) {
+  .reviews__item {
+    flex-direction: column !important;
+  }
+  .review__img {
+    order: 1 !important;
+    height: 200px !important;
+  }
+  .review__img img {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    margin-top: 0px !important;
+    margin-bottom: 5px !important;
+    display: block !important;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100% !important;
+  }
+  .review__info {
+    order: 2 !important;
+  }
+}
 footer {
   background-color: #553DDD !important;
 }

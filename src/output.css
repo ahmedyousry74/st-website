@@ -2775,6 +2775,10 @@ video {
   padding: 30px;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .\!py-\[8px\] {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
@@ -3348,6 +3352,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(230 234 239 / var(--tw-text-opacity));
+}
+
+.text-\[\#ffc662\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 198 98 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -4046,6 +4055,10 @@ video {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 }
 
